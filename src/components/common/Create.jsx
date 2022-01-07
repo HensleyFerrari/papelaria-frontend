@@ -14,13 +14,6 @@ function Create() {
         })
     }
 
-    const clear = () => {
-        setSolicitante('')
-        setDescricao('')
-        setValor()
-    }
-
-
     return (
         <div className='shadow-lg mb-5 p-3 flex flex-row gap-5 items-center justify-around'>
             <div>

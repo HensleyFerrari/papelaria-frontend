@@ -1,13 +1,14 @@
 import './App.css';
 
-import Home from './components/pages/Home';
-import Create from './components/common/Create';
+import Routes from './Routes'
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Create />
-      <Home />
+      <Router>
+        <Routes />
+      </Router>
     </div>
   );
 }
