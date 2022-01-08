@@ -22,7 +22,7 @@ function Home() {
                     <td className='px-4 py-3'>{item.solicitante}</td>
                     <td className='px-4 py-3'>{item.descricao}</td>
                     <td className='px-4 py-3'>R$ {(item.valor).toFixed(2)}</td>
-                    <td><Link to={`/${item._id}`} className='bg-green-200 px-4 py-2 rounded-lg hover:bg-green-400'>Editar</Link></td>
+                    <td><Link to={`/${item._id}`} className='bg-green-200 px-4 py-2 rounded-lg hover:bg-green-400'>Ir para página</Link></td>
                 </tr>
             )
         })

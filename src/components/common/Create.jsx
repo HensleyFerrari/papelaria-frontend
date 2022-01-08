@@ -15,7 +15,7 @@ function Create() {
     }
 
     return (
-        <div className='shadow-lg mb-5 p-3 flex flex-row gap-5 items-center justify-around'>
+        <div className='mb-5 p-3 flex flex-row gap-5 items-center justify-around'>
             <div>
                 <span>Solicitante</span>
                 <input type="text" className='border-b ml-1 outline-none text-gray-400' value={solicitante}
